@@ -25,12 +25,12 @@ class Understatus < Formula
   #   curl -L <release tarball> | shasum -a 256
   on_macos do
     on_arm do
-      url "https://github.com/ictechgy/understatus/releases/download/v0.7.3/understatus-0.7.3-aarch64-apple-darwin.tar.gz"
-      sha256 "9ccf69a7afeb025e5d1c1d77b874510f84421479a2f62783cb5c64deb8a76522"
+      url "https://github.com/ictechgy/understatus/releases/download/v0.7.4/understatus-0.7.4-aarch64-apple-darwin.tar.gz"
+      sha256 "8b97ae554c2a0ee480136b83a8fcc5c8f324e9bee3583dc6979bc283ba43354c"
     end
     on_intel do
-      url "https://github.com/ictechgy/understatus/releases/download/v0.7.3/understatus-0.7.3-x86_64-apple-darwin.tar.gz"
-      sha256 "00fb76abee627c3d9b983e4fcaa76b95aec841c76beaf8f8d1a611c22caa1b1b"
+      url "https://github.com/ictechgy/understatus/releases/download/v0.7.4/understatus-0.7.4-x86_64-apple-darwin.tar.gz"
+      sha256 "7c25b193aec558811b4633b603070b0d1c7aa5f99324f47a4cf73ceca9326e47"
     end
   end
 
